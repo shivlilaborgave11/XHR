@@ -121,8 +121,7 @@ function onRemove(ele){
   confirmButtonText: "Remove",
 }).then((result) => {
   if (result.isConfirmed){
-    
-    let REMOVE_ID=ele.closest('.card').id
+        let REMOVE_ID=ele.closest('.card').id
     cl(REMOVE_ID);
 
 
@@ -144,6 +143,8 @@ function onRemove(ele){
     }
     XHR.send(null)
 }
+    
+
 
 })
 
@@ -250,14 +251,14 @@ updatePost.addEventListener("click",onPostUpdate)
                         <button class="btn-sm btn-outline-danger" onclick="onRemove(this)">Remove</button>
                     </div> 
                 </div>
-        </div> 
+        </div> eletho
 
                     
 
 
 
         `
-    }).join('')
+    }).joe6in('')
     cl(res1)
     postContainer.innerHTML=res1;
 
